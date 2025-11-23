@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bivenue Copilot — AI Advisor for Finance Transformation</title>
+  <meta name="description" content="Diagnose finance pain points and get a prescriptive roadmap — process, org, or digital enablement." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#0b1220; --fg:#eef2f7; --muted:#a8b3c7; --brand:#ffd166; --card:#121a2b; }
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--fg);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial}
+    .wrap{max-width:1080px;margin:0 auto;padding:24px}
+    .nav{display:flex;align-items:center;justify-content:space-between}
+    .brand{font-weight:800;letter-spacing:.5px}
+    .btn{display:inline-block;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:600}
+    .btn-primary{background:var(--brand);color:#111}
+    .btn-ghost{border:1px solid #2a3550;color:var(--fg)}
+    .hero{padding:72px 0;display:grid;gap:24px}
+    .hero h1{font-size:40px;line-height:1.1;margin:0}
+    .hero p{color:var(--muted);max-width:720px}
+    .hero .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}
+    .card{background:var(--card);border:1px solid #1f2a44;border-radius:16px;padding:20px}
+    .grid{display:grid;gap:16px}
+    @media(min-width:880px){ .grid-3{grid-template-columns:repeat(3,1fr)} .grid-2{grid-template-columns:repeat(2,1fr)} }
+    h2{margin:32px 0 12px}
+    .muted{color:var(--muted)}
+    footer{margin:48px 0 12px;font-size:14px;color:var(--muted);text-align:center}
+    .tag{display:inline-block;padding:6px 10px;border:1px solid #2a3550;border-radius:999px;margin:4px 8px 0 0;font-size:13px;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="nav">
+      <div class="brand">🧭 Bivenue Copilot</div>
+      <div>
+        <a class="btn btn-ghost" href="#how">How it works</a>
+        <a class="btn btn-ghost" href="#usecases">Use cases</a>
+        <a class="btn btn-ghost" href="#about">About</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <h1>AI Advisor for Finance Transformation</h1>
+      <p>Describe your challenge (R2R, Intercompany, Consolidation, P2P, O2C, FP&A). The Copilot diagnoses root causes across <b>Process</b>, <b>Technology</b>, <b>Organization</b>, <b>Data</b>, and <b>Policy</b> — then gives a prescriptive roadmap with a consultant-grade PDF brief.</p>
+      <div class="cta">
+        <!-- Replace these two links when ready -->
+        <a class="btn btn-primary" href="https://Bivenue-copilot.streamlit.app" target="_blank" rel="noopener">Launch Copilot</a>
+        <a class="btn btn-ghost" href="https://forms.gle/" target="_blank" rel="noopener">Join Waitlist</a>
+      </div>
+      <div>
+        <span class="tag">Vendor-neutral</span>
+        <span class="tag">Lean / ADKAR / RACI</span>
+        <span class="tag">PDF Brief + Deep-Dive Plan</span>
+      </div>
+    </section>
+
+    <section id="how">
+      <h2>How it works</h2>
+      <div class="grid grid-3">
+        <div class="card"><b>1) Describe</b><br><span class="muted">Enter your pain point (e.g., “IC mismatches delay consolidation”).</span></div>
+        <div class="card"><b>2) Diagnose</b><br><span class="muted">Root-cause weights across Process / Tech / Org / Data / Policy.</span></div>
+        <div class="card"><b>3) Roadmap</b><br><span class="muted">Quick Wins → 3–6m plan → 6–12m plan + Expected Benefits.</span></div>
+      </div>
+    </section>
+
+    <section id="usecases">
+      <h2>Use cases</h2>
+      <div class="grid grid-2">
+        <div class="card"><b>Record to Report</b><br><span class="muted">Close acceleration, reconciliations, disclosures.</span></div>
+        <div class="card"><b>Intercompany & Consolidation</b><br><span class="muted">COA mapping, IC matching, eliminations.</span></div>
+        <div class="card"><b>Procure to Pay</b><br><span class="muted">3-way match, vendor master, cycle time.</span></div>
+        <div class="card"><b>Order to Cash</b><br><span class="muted">DSO reduction, disputes, cash app.</span></div>
+        <div class="card"><b>FP&A</b><br><span class="muted">Driver-based planning, ERP→planning integration.</span></div>
+        <div class="card"><b>Treasury</b><br><span class="muted">Cash visibility, forecasting, bank connectivity.</span></div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>Why Bivenue</h2>
+      <div class="grid grid-3">
+        <div class="card"><b>Consultant-grade outputs</b><br><span class="muted">PDF Transformation Brief + 8–12 week plan with owners & KPIs.</span></div>
+        <div class="card"><b>Pragmatic & vendor-neutral</b><br><span class="muted">Process first, then tech fit-gap — no tool bias.</span></div>
+        <div class="card"><b>Fast start</b><br><span class="muted">Live demo in minutes; expand to enterprise depth as you grow.</span></div>
+      </div>
+    </section>
+
+    <footer>© <span id="y"></span> Bivenue • tanveeredon@gmail.com</footer>
+  </div>
+  <script>document.getElementById("y").textContent=new Date().getFullYear()</script>
+</body>
+</html>
